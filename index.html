@@ -19,33 +19,100 @@
 
 <body>
   <div id="app">
-    <header class="header">
-      <div class="container">
-        <a href="#" class="logo">매실</a>
-      </div>
-    </header>
-
     <main>
       <section class="hero section">
+        <div class="hero-bg">
+          <div class="hero-glow hero-glow-1"></div>
+          <div class="hero-glow hero-glow-2"></div>
+          <div class="hero-grid"></div>
+        </div>
         <div class="container">
+          <div class="hero-badge fade-in-up">
+            <span class="badge-dot"></span>
+            Practical Value, Every Day
+          </div>
           <h1 class="hero-title fade-in-up">
             <span class="highlight">매일,</span> 실리 있게.
           </h1>
-          <p class="hero-subtitle fade-in-up delay-1">
-            우리는 매실입니다.
+          <p class="hero-desc fade-in-up delay-1">
+            매실은 사람들의 삶에 실질적인 도움이 되는<br>
+            가치 있는 소프트웨어를 만듭니다.<br>
+            복잡함은 덜어내고, 본질에 집중합니다.
           </p>
+          <div class="hero-cta fade-in-up delay-2">
+            <a href="#products" class="cta-button primary">
+              프로덕트 보기
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 17L17 7M17 7H7M17 7V17"/>
+              </svg>
+            </a>
+          </div>
         </div>
       </section>
 
-      <section class="philosophy section">
+      <section class="products section" id="products">
         <div class="container">
-          <div class="content-box scroll-reveal">
-            <h2 class="section-title">매일 실리있게</h2>
-            <p class="section-desc">
-              매실은 사람들의 삶에 실질적인 도움이 되는<br>
-              가치 있는 소프트웨어를 만듭니다.<br>
-              복잡함은 덜어내고, 본질에 집중합니다.
-            </p>
+          <h2 class="section-title scroll-reveal">Products</h2>
+
+          <div class="product-showcase scroll-reveal">
+            <div class="product-hero-card">
+              <div class="product-glow"></div>
+              <div class="product-hero-content">
+                <div class="product-header">
+                  <div class="product-badge">운영 중</div>
+                  <h3 class="product-name">필사</h3>
+                  <p class="product-name-en">Feel4</p>
+                  <p class="product-tagline">글의 깊이를 타이핑으로 느끼다</p>
+                  <p class="product-desc">
+                    소설, 시, 수필, 성경을 직접 타이핑하며<br>
+                    텍스트와 깊이 교감하는 미니멀 필사 서비스
+                  </p>
+                </div>
+
+                <div class="product-features-grid">
+                  <div class="feature-card">
+                    <span class="feature-icon">📖</span>
+                    <div class="feature-text">
+                      <strong>다양한 콘텐츠</strong>
+                      <span>소설, 시, 수필, 성경</span>
+                    </div>
+                  </div>
+                  <div class="feature-card">
+                    <span class="feature-icon">🎨</span>
+                    <div class="feature-text">
+                      <strong>나만의 테마</strong>
+                      <span>폰트, 크기, 색상 커스텀</span>
+                    </div>
+                  </div>
+                  <div class="feature-card">
+                    <span class="feature-icon">📱</span>
+                    <div class="feature-text">
+                      <strong>멀티 플랫폼</strong>
+                      <span>웹과 모바일 앱 지원</span>
+                    </div>
+                  </div>
+                  <div class="feature-card">
+                    <span class="feature-icon">✨</span>
+                    <div class="feature-text">
+                      <strong>미니멀 디자인</strong>
+                      <span>집중을 위한 심플 UI</span>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="https://feel4.maesil.io" target="_blank" rel="noopener noreferrer" class="product-link">
+                  서비스 바로가기
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                  </svg>
+                </a>
+              </div>
+              <div class="product-visual">
+                <div class="product-preview">
+                  <iframe src="https://feel4.maesil.io" title="필사 미리보기" loading="lazy" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
