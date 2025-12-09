@@ -517,7 +517,7 @@ a {
   }
 
   .product-visual {
-    order: -1;
+    display: none;
   }
 }
 
@@ -609,17 +609,5 @@ a {
 
   .feature-text span {
     font-size: 11px;
-  }
-
-  .product-preview {
-    max-width: 240px;
-    border-width: 6px;
-    border-radius: 32px;
-  }
-
-  .product-preview::before {
-    width: 60px;
-    height: 20px;
-    top: 10px;
   }
 }
