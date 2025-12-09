@@ -227,6 +227,30 @@ a {
   transform: translate(3px, -3px);
 }
 
+/* Scroll Arrow */
+.scroll-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.scroll-arrow:hover {
+  color: var(--primary-color);
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
 .delay-2 {
   animation-delay: 0.4s;
 }
@@ -594,7 +618,7 @@ a {
   }
 
   .product-features-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin: 24px 0;
   }
