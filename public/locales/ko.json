@@ -74,11 +74,8 @@
     "desc": "프로젝트 의뢰나 협업 제안이 있으시면<br>편하게 문의해 주세요.",
     "form": {
       "name": "이름",
-      "namePlaceholder": "홍길동",
       "email": "이메일",
-      "emailPlaceholder": "example@email.com",
       "company": "회사/소속",
-      "companyPlaceholder": "(선택사항)",
       "projectType": "프로젝트 유형",
       "selectOption": "선택해주세요",
       "options": {
@@ -88,7 +85,6 @@
         "other": "기타"
       },
       "message": "문의 내용",
-      "messagePlaceholder": "프로젝트에 대해 간단히 설명해주세요",
       "submit": "문의하기"
     }
   },

@@ -74,11 +74,8 @@
     "desc": "Have a project in mind or a collaboration proposal?<br>Feel free to reach out.",
     "form": {
       "name": "Name",
-      "namePlaceholder": "John Doe",
       "email": "Email",
-      "emailPlaceholder": "example@email.com",
       "company": "Company",
-      "companyPlaceholder": "(Optional)",
       "projectType": "Project Type",
       "selectOption": "Please select",
       "options": {
@@ -88,7 +85,6 @@
         "other": "Other"
       },
       "message": "Message",
-      "messagePlaceholder": "Tell us about your project",
       "submit": "Send Message"
     }
   },

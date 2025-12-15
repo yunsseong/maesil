@@ -74,11 +74,8 @@
     "desc": "プロジェクトの依頼や協業の提案がございましたら<br>お気軽にお問い合わせください。",
     "form": {
       "name": "お名前",
-      "namePlaceholder": "山田太郎",
       "email": "メール",
-      "emailPlaceholder": "example@email.com",
       "company": "会社/所属",
-      "companyPlaceholder": "(任意)",
       "projectType": "プロジェクトタイプ",
       "selectOption": "選択してください",
       "options": {
@@ -88,7 +85,6 @@
         "other": "その他"
       },
       "message": "お問い合わせ内容",
-      "messagePlaceholder": "プロジェクトについて簡単にご説明ください",
       "submit": "送信する"
     }
   },
