@@ -5,12 +5,19 @@ const i18n = {
   supportedLangs: ['ko', 'en'],
 
   async init() {
-    // Get saved language or detect from browser
-    const savedLang = localStorage.getItem('lang');
+    // Detect browser language first, use saved only if manually changed
     const browserLang = navigator.language.split('-')[0];
+    const savedLang = localStorage.getItem('lang');
+    const manuallyChanged = localStorage.getItem('langManuallySet') === 'true';
 
-    this.currentLang = savedLang ||
-      (this.supportedLangs.includes(browserLang) ? browserLang : 'ko');
+    // Priority: manual selection > browser language > default (ko)
+    if (manuallyChanged && savedLang) {
+      this.currentLang = savedLang;
+    } else if (this.supportedLangs.includes(browserLang)) {
+      this.currentLang = browserLang;
+    } else {
+      this.currentLang = 'ko';
+    }
 
     await this.loadTranslations(this.currentLang);
     this.applyTranslations();
@@ -99,6 +106,7 @@ const i18n = {
 
     this.currentLang = lang;
     localStorage.setItem('lang', lang);
+    localStorage.setItem('langManuallySet', 'true');
 
     await this.loadTranslations(lang);
     this.applyTranslations();
