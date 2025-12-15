@@ -62,8 +62,12 @@ const i18n = {
         el.placeholder = translation;
       } else if (el.tagName === 'OPTION') {
         el.textContent = translation;
-      } else {
+      } else if (el.hasAttribute('data-i18n-html')) {
+        // Only use innerHTML when explicitly marked as safe HTML content
         el.innerHTML = translation;
+      } else {
+        // Default to textContent for security (prevents XSS)
+        el.textContent = translation;
       }
     });
 

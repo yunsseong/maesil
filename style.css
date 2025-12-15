@@ -984,17 +984,11 @@ a {
   }
 
   .product-carousel {
-    gap: 8px;
+    gap: 0;
   }
 
   .carousel-arrow {
-    width: 36px;
-    height: 36px;
-  }
-
-  .carousel-arrow svg {
-    width: 18px;
-    height: 18px;
+    display: none;
   }
 
   .carousel-dots {
