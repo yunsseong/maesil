@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Maesil - Practical Value, Every Day",
+    "description": "We create practical software that makes a real difference in your daily life."
+  },
+  "hero": {
+    "badge": "Practical Value, Every Day",
+    "title": "Practical Value,<br><span class=\"highlight\">Every Day.</span>",
+    "desc": "Maesil creates valuable software that<br>makes a real difference in people's lives.<br>We strip away complexity and focus on what matters."
+  },
+  "aria": {
+    "scrollDown": "Scroll down",
+    "prevProduct": "Previous product",
+    "nextProduct": "Next product",
+    "firstProduct": "First product",
+    "secondProduct": "Second product"
+  },
+  "products": {
+    "feel4": {
+      "badge": "Live",
+      "name": "Feel4",
+      "tagline": "Feel the depth of text through typing",
+      "desc": "A minimal transcription service where you type<br>novels, poems, essays, and scriptures to deeply connect with text",
+      "previewTitle": "Feel4 Preview",
+      "cta": "Try it now",
+      "features": {
+        "content": {
+          "title": "Rich Content",
+          "desc": "Novels, poems, essays, scriptures"
+        },
+        "theme": {
+          "title": "Custom Themes",
+          "desc": "Font, size, color customization"
+        },
+        "platform": {
+          "title": "Multi-Platform",
+          "desc": "Web and mobile app support"
+        },
+        "design": {
+          "title": "Minimal Design",
+          "desc": "Simple UI for focus"
+        }
+      }
+    },
+    "kit": {
+      "badge": "Live",
+      "name": "Kit",
+      "tagline": "Fast and secure, right in your browser",
+      "desc": "All-in-one utility toolkit that processes<br>everything client-side without server uploads",
+      "previewTitle": "Kit Preview",
+      "cta": "Try it now",
+      "features": {
+        "image": {
+          "title": "Image Tools",
+          "desc": "Resize, compress, convert & more"
+        },
+        "pdf": {
+          "title": "PDF Tools",
+          "desc": "Convert, merge, split & more"
+        },
+        "dev": {
+          "title": "Dev Tools",
+          "desc": "JSON, Base64, Hash & more"
+        },
+        "privacy": {
+          "title": "Complete Privacy",
+          "desc": "All processing in browser"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "desc": "Have a project in mind or a collaboration proposal?<br>Feel free to reach out.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "example@email.com",
+      "company": "Company",
+      "companyPlaceholder": "(Optional)",
+      "projectType": "Project Type",
+      "selectOption": "Please select",
+      "options": {
+        "web": "Web Development",
+        "app": "Mobile App Development",
+        "consulting": "Technical Consulting",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "logo": "Maesil",
+    "ceo": "CEO",
+    "ceoName": "Yunsung Jung",
+    "bizNumber": "Business Registration",
+    "bizNumberValue": "107-25-71788",
+    "address": "Address",
+    "addressValue": "219-2, 2F, 55 Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do, South Korea",
+    "copyright": "© 2025 Maesil. All rights reserved."
+  },
+  "langSwitch": {
+    "label": "KO"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "매실 - 매일 실리있게",
+    "description": "매일 도움이 되는 실리있는 소프트웨어, 매실입니다."
+  },
+  "hero": {
+    "badge": "Practical Value, Every Day",
+    "title": "<span class=\"highlight\">매일,</span> 실리 있게.",
+    "desc": "매실은 사람들의 삶에 실질적인 도움이 되는<br>가치 있는 소프트웨어를 만듭니다.<br>복잡함은 덜어내고, 본질에 집중합니다."
+  },
+  "aria": {
+    "scrollDown": "아래로 스크롤",
+    "prevProduct": "이전 제품",
+    "nextProduct": "다음 제품",
+    "firstProduct": "첫 번째 제품",
+    "secondProduct": "두 번째 제품"
+  },
+  "products": {
+    "feel4": {
+      "badge": "운영 중",
+      "name": "필사",
+      "tagline": "글의 깊이를 타이핑으로 느끼다",
+      "desc": "소설, 시, 수필, 성경을 직접 타이핑하며<br>텍스트와 깊이 교감하는 미니멀 필사 서비스",
+      "previewTitle": "필사 미리보기",
+      "cta": "서비스 바로가기",
+      "features": {
+        "content": {
+          "title": "다양한 콘텐츠",
+          "desc": "소설, 시, 수필, 성경"
+        },
+        "theme": {
+          "title": "나만의 테마",
+          "desc": "폰트, 크기, 색상 커스텀"
+        },
+        "platform": {
+          "title": "멀티 플랫폼",
+          "desc": "웹과 모바일 앱 지원"
+        },
+        "design": {
+          "title": "미니멀 디자인",
+          "desc": "집중을 위한 심플 UI"
+        }
+      }
+    },
+    "kit": {
+      "badge": "운영 중",
+      "name": "Kit",
+      "tagline": "브라우저에서 바로, 빠르고 안전하게",
+      "desc": "서버 업로드 없이 클라이언트에서 처리하는<br>올인원 유틸리티 도구 모음",
+      "previewTitle": "Kit 미리보기",
+      "cta": "서비스 바로가기",
+      "features": {
+        "image": {
+          "title": "이미지 처리",
+          "desc": "리사이즈, 압축, 변환 등 7가지"
+        },
+        "pdf": {
+          "title": "PDF 작업",
+          "desc": "변환, 병합, 분할 등 6가지"
+        },
+        "dev": {
+          "title": "개발자 도구",
+          "desc": "JSON, Base64, Hash 등 10가지"
+        },
+        "privacy": {
+          "title": "완전한 프라이버시",
+          "desc": "모든 처리가 브라우저에서"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "의뢰 문의",
+    "desc": "프로젝트 의뢰나 협업 제안이 있으시면<br>편하게 문의해 주세요.",
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "홍길동",
+      "email": "이메일",
+      "emailPlaceholder": "example@email.com",
+      "company": "회사/소속",
+      "companyPlaceholder": "(선택사항)",
+      "projectType": "프로젝트 유형",
+      "selectOption": "선택해주세요",
+      "options": {
+        "web": "웹 서비스 개발",
+        "app": "모바일 앱 개발",
+        "consulting": "기술 컨설팅",
+        "other": "기타"
+      },
+      "message": "문의 내용",
+      "messagePlaceholder": "프로젝트에 대해 간단히 설명해주세요",
+      "submit": "문의하기"
+    }
+  },
+  "footer": {
+    "logo": "매실",
+    "ceo": "대표",
+    "ceoName": "정윤성",
+    "bizNumber": "사업자 등록번호",
+    "bizNumberValue": "107-25-71788",
+    "address": "주소",
+    "addressValue": "경기도 안산시 상록구 한양대학로 55, 2층 219-2호 Knowledge lab(사동, 창업보육센터)",
+    "copyright": "© 2025 Maesil. All rights reserved."
+  },
+  "langSwitch": {
+    "label": "EN"
+  }
+}

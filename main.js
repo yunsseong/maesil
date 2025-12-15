@@ -1,4 +1,18 @@
 import './style.css'
+import i18n from './i18n.js'
+
+// Initialize i18n
+i18n.init();
+
+// Language switch button
+document.addEventListener('DOMContentLoaded', () => {
+  const langSwitch = document.querySelector('.lang-switch');
+  if (langSwitch) {
+    langSwitch.addEventListener('click', () => {
+      i18n.toggle();
+    });
+  }
+});
 
 // Scroll Reveal Animation
 const observerOptions = {

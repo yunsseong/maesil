@@ -3,6 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9VM00H2Q77"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-9VM00H2Q77');
+  </script>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>매실 - 매일 실리있게</title>
@@ -19,6 +27,13 @@
 
 <body>
   <div id="app">
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="/" class="header-logo" data-i18n="footer.logo">매실</a>
+        <button class="lang-switch" aria-label="Switch language" data-i18n="langSwitch.label">EN</button>
+      </div>
+    </header>
+
     <main>
       <section class="hero section">
         <div class="hero-bg">
@@ -29,17 +44,17 @@
         <div class="container">
           <div class="hero-badge fade-in-up">
             <span class="badge-dot"></span>
-            Practical Value, Every Day
+            <span data-i18n="hero.badge">Practical Value, Every Day</span>
           </div>
-          <h1 class="hero-title fade-in-up">
+          <h1 class="hero-title fade-in-up" data-i18n="hero.title">
             <span class="highlight">매일,</span> 실리 있게.
           </h1>
-          <p class="hero-desc fade-in-up delay-1">
+          <p class="hero-desc fade-in-up delay-1" data-i18n="hero.desc">
             매실은 사람들의 삶에 실질적인 도움이 되는<br>
             가치 있는 소프트웨어를 만듭니다.<br>
             복잡함은 덜어내고, 본질에 집중합니다.
           </p>
-          <a href="#products" class="scroll-arrow fade-in-up delay-2" aria-label="아래로 스크롤">
+          <a href="#products" class="scroll-arrow fade-in-up delay-2" data-i18n-attr="aria-label:aria.scrollDown" aria-label="아래로 스크롤">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M12 5v14M5 12l7 7 7-7"/>
             </svg>
@@ -50,7 +65,7 @@
       <section class="products section" id="products">
         <div class="container">
           <div class="product-carousel scroll-reveal">
-            <button class="carousel-arrow carousel-arrow-prev" aria-label="이전 제품">
+            <button class="carousel-arrow carousel-arrow-prev" data-i18n-attr="aria-label:aria.prevProduct" aria-label="이전 제품">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M15 18l-6-6 6-6"/>
               </svg>
@@ -63,10 +78,10 @@
                     <div class="product-glow"></div>
                     <div class="product-hero-content">
                       <div class="product-header">
-                        <div class="product-badge">운영 중</div>
-                        <h3 class="product-name">필사</h3>
-                        <p class="product-tagline">글의 깊이를 타이핑으로 느끼다</p>
-                        <p class="product-desc">
+                        <div class="product-badge" data-i18n="products.feel4.badge">운영 중</div>
+                        <h3 class="product-name" data-i18n="products.feel4.name">필사</h3>
+                        <p class="product-tagline" data-i18n="products.feel4.tagline">글의 깊이를 타이핑으로 느끼다</p>
+                        <p class="product-desc" data-i18n="products.feel4.desc">
                           소설, 시, 수필, 성경을 직접 타이핑하며<br>
                           텍스트와 깊이 교감하는 미니멀 필사 서비스
                         </p>
@@ -75,32 +90,32 @@
                       <div class="product-features-grid">
                         <div class="feature-card">
                           <div class="feature-text">
-                            <strong>다양한 콘텐츠</strong>
-                            <span>소설, 시, 수필, 성경</span>
+                            <strong data-i18n="products.feel4.features.content.title">다양한 콘텐츠</strong>
+                            <span data-i18n="products.feel4.features.content.desc">소설, 시, 수필, 성경</span>
                           </div>
                         </div>
                         <div class="feature-card">
                           <div class="feature-text">
-                            <strong>나만의 테마</strong>
-                            <span>폰트, 크기, 색상 커스텀</span>
+                            <strong data-i18n="products.feel4.features.theme.title">나만의 테마</strong>
+                            <span data-i18n="products.feel4.features.theme.desc">폰트, 크기, 색상 커스텀</span>
                           </div>
                         </div>
                         <div class="feature-card">
                           <div class="feature-text">
-                            <strong>멀티 플랫폼</strong>
-                            <span>웹과 모바일 앱 지원</span>
+                            <strong data-i18n="products.feel4.features.platform.title">멀티 플랫폼</strong>
+                            <span data-i18n="products.feel4.features.platform.desc">웹과 모바일 앱 지원</span>
                           </div>
                         </div>
                         <div class="feature-card">
                           <div class="feature-text">
-                            <strong>미니멀 디자인</strong>
-                            <span>집중을 위한 심플 UI</span>
+                            <strong data-i18n="products.feel4.features.design.title">미니멀 디자인</strong>
+                            <span data-i18n="products.feel4.features.design.desc">집중을 위한 심플 UI</span>
                           </div>
                         </div>
                       </div>
 
                       <a href="https://feel4.maesil.io" target="_blank" rel="noopener noreferrer" class="product-link">
-                        서비스 바로가기
+                        <span data-i18n="products.feel4.cta">서비스 바로가기</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                           <path d="M7 17L17 7M17 7H7M17 7V17"/>
                         </svg>
@@ -108,7 +123,7 @@
                     </div>
                     <div class="product-visual">
                       <div class="product-preview">
-                        <iframe src="https://feel4.maesil.io" title="필사 미리보기" loading="lazy" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
+                        <iframe src="https://feel4.maesil.io" data-i18n-attr="title:products.feel4.previewTitle" title="필사 미리보기" loading="lazy" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
                       </div>
                     </div>
                   </div>
@@ -119,10 +134,10 @@
                     <div class="product-glow product-glow-kit"></div>
                     <div class="product-hero-content">
                       <div class="product-header">
-                        <div class="product-badge">운영 중</div>
-                        <h3 class="product-name">Kit</h3>
-                        <p class="product-tagline">브라우저에서 바로, 빠르고 안전하게</p>
-                        <p class="product-desc">
+                        <div class="product-badge" data-i18n="products.kit.badge">운영 중</div>
+                        <h3 class="product-name" data-i18n="products.kit.name">Kit</h3>
+                        <p class="product-tagline" data-i18n="products.kit.tagline">브라우저에서 바로, 빠르고 안전하게</p>
+                        <p class="product-desc" data-i18n="products.kit.desc">
                           서버 업로드 없이 클라이언트에서 처리하는<br>
                           올인원 유틸리티 도구 모음
                         </p>
@@ -131,32 +146,32 @@
                       <div class="product-features-grid">
                         <div class="feature-card">
                           <div class="feature-text">
-                            <strong>이미지 처리</strong>
-                            <span>리사이즈, 압축, 변환 등 7가지</span>
+                            <strong data-i18n="products.kit.features.image.title">이미지 처리</strong>
+                            <span data-i18n="products.kit.features.image.desc">리사이즈, 압축, 변환 등 7가지</span>
                           </div>
                         </div>
                         <div class="feature-card">
                           <div class="feature-text">
-                            <strong>PDF 작업</strong>
-                            <span>변환, 병합, 분할 등 6가지</span>
+                            <strong data-i18n="products.kit.features.pdf.title">PDF 작업</strong>
+                            <span data-i18n="products.kit.features.pdf.desc">변환, 병합, 분할 등 6가지</span>
                           </div>
                         </div>
                         <div class="feature-card">
                           <div class="feature-text">
-                            <strong>개발자 도구</strong>
-                            <span>JSON, Base64, Hash 등 10가지</span>
+                            <strong data-i18n="products.kit.features.dev.title">개발자 도구</strong>
+                            <span data-i18n="products.kit.features.dev.desc">JSON, Base64, Hash 등 10가지</span>
                           </div>
                         </div>
                         <div class="feature-card">
                           <div class="feature-text">
-                            <strong>완전한 프라이버시</strong>
-                            <span>모든 처리가 브라우저에서</span>
+                            <strong data-i18n="products.kit.features.privacy.title">완전한 프라이버시</strong>
+                            <span data-i18n="products.kit.features.privacy.desc">모든 처리가 브라우저에서</span>
                           </div>
                         </div>
                       </div>
 
                       <a href="https://kit.maesil.io" target="_blank" rel="noopener noreferrer" class="product-link">
-                        서비스 바로가기
+                        <span data-i18n="products.kit.cta">서비스 바로가기</span>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                           <path d="M7 17L17 7M17 7H7M17 7V17"/>
                         </svg>
@@ -164,7 +179,7 @@
                     </div>
                     <div class="product-visual">
                       <div class="product-preview product-preview-kit">
-                        <iframe src="https://kit.maesil.io" title="Kit 미리보기" loading="lazy" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
+                        <iframe src="https://kit.maesil.io" data-i18n-attr="title:products.kit.previewTitle" title="Kit 미리보기" loading="lazy" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
                       </div>
                     </div>
                   </div>
@@ -172,7 +187,7 @@
               </div>
             </div>
 
-            <button class="carousel-arrow carousel-arrow-next" aria-label="다음 제품">
+            <button class="carousel-arrow carousel-arrow-next" data-i18n-attr="aria-label:aria.nextProduct" aria-label="다음 제품">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M9 18l6-6-6-6"/>
               </svg>
@@ -180,8 +195,66 @@
           </div>
 
           <div class="carousel-dots">
-            <button class="carousel-dot active" aria-label="첫 번째 제품"></button>
-            <button class="carousel-dot" aria-label="두 번째 제품"></button>
+            <button class="carousel-dot active" data-i18n-attr="aria-label:aria.firstProduct" aria-label="첫 번째 제품"></button>
+            <button class="carousel-dot" data-i18n-attr="aria-label:aria.secondProduct" aria-label="두 번째 제품"></button>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="contact-wrapper scroll-reveal">
+            <div class="contact-info">
+              <h2 class="contact-title" data-i18n="contact.title">의뢰 문의</h2>
+              <p class="contact-desc" data-i18n="contact.desc">
+                프로젝트 의뢰나 협업 제안이 있으시면<br>
+                편하게 문의해 주세요.
+              </p>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                  <span>contact@maesil.ai</span>
+                </div>
+              </div>
+            </div>
+            <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" data-i18n="contact.form.name">이름</label>
+                  <input type="text" id="name" name="name" required data-i18n-attr="placeholder:contact.form.namePlaceholder" placeholder="홍길동">
+                </div>
+                <div class="form-group">
+                  <label for="email" data-i18n="contact.form.email">이메일</label>
+                  <input type="email" id="email" name="email" required data-i18n-attr="placeholder:contact.form.emailPlaceholder" placeholder="example@email.com">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="company" data-i18n="contact.form.company">회사/소속</label>
+                <input type="text" id="company" name="company" data-i18n-attr="placeholder:contact.form.companyPlaceholder" placeholder="(선택사항)">
+              </div>
+              <div class="form-group">
+                <label for="project-type" data-i18n="contact.form.projectType">프로젝트 유형</label>
+                <select id="project-type" name="project-type" required>
+                  <option value="" data-i18n="contact.form.selectOption">선택해주세요</option>
+                  <option value="web" data-i18n="contact.form.options.web">웹 서비스 개발</option>
+                  <option value="app" data-i18n="contact.form.options.app">모바일 앱 개발</option>
+                  <option value="consulting" data-i18n="contact.form.options.consulting">기술 컨설팅</option>
+                  <option value="other" data-i18n="contact.form.options.other">기타</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message" data-i18n="contact.form.message">문의 내용</label>
+                <textarea id="message" name="message" rows="5" required data-i18n-attr="placeholder:contact.form.messagePlaceholder" placeholder="프로젝트에 대해 간단히 설명해주세요"></textarea>
+              </div>
+              <button type="submit" class="submit-btn">
+                <span data-i18n="contact.form.submit">문의하기</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </section>
@@ -190,13 +263,13 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-info">
-          <h3 class="footer-logo">매실</h3>
+          <h3 class="footer-logo" data-i18n="footer.logo">매실</h3>
           <div class="footer-details">
-            <p><strong>대표</strong> 정윤성</p>
-            <p><strong>사업자 등록번호</strong> 107-25-71788</p>
-            <p><strong>주소</strong> 경기도 안산시 상록구 한양대학로 55, 2층 219-2호 Knowledge lab(사동, 창업보육센터)</p>
+            <p><strong data-i18n="footer.ceo">대표</strong> <span data-i18n="footer.ceoName">정윤성</span></p>
+            <p><strong data-i18n="footer.bizNumber">사업자 등록번호</strong> <span data-i18n="footer.bizNumberValue">107-25-71788</span></p>
+            <p><strong data-i18n="footer.address">주소</strong> <span data-i18n="footer.addressValue">경기도 안산시 상록구 한양대학로 55, 2층 219-2호 Knowledge lab(사동, 창업보육센터)</span></p>
           </div>
-          <p class="copyright">© 2025 Maesil. All rights reserved.</p>
+          <p class="copyright" data-i18n="footer.copyright">© 2025 Maesil. All rights reserved.</p>
         </div>
       </div>
     </footer>
