@@ -6,11 +6,15 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Initialize i18n first
   await i18n.init();
 
-  // Language switch button
-  const langSwitch = document.querySelector('.lang-switch');
-  if (langSwitch) {
-    langSwitch.addEventListener('click', () => {
-      i18n.toggle();
+  // Language select dropdown
+  const langSelect = document.querySelector('.lang-select');
+  if (langSelect) {
+    // Set initial value
+    langSelect.value = i18n.currentLang;
+
+    // Handle change
+    langSelect.addEventListener('change', (e) => {
+      i18n.switchLang(e.target.value);
     });
   }
 });
