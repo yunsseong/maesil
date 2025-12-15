@@ -1,11 +1,12 @@
 import './style.css'
 import i18n from './i18n.js'
 
-// Initialize i18n
-i18n.init();
+// Initialize i18n and app
+document.addEventListener('DOMContentLoaded', async () => {
+  // Initialize i18n first
+  await i18n.init();
 
-// Language switch button
-document.addEventListener('DOMContentLoaded', () => {
+  // Language switch button
   const langSwitch = document.querySelector('.lang-switch');
   if (langSwitch) {
     langSwitch.addEventListener('click', () => {
