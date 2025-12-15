@@ -2,7 +2,7 @@
 const i18n = {
   translations: {},
   currentLang: 'ko',
-  supportedLangs: ['ko', 'en'],
+  supportedLangs: ['ko', 'en', 'ja'],
 
   async init() {
     // Detect browser language first, use saved only if manually changed
@@ -120,8 +120,10 @@ const i18n = {
   },
 
   toggle() {
-    const nextLang = this.currentLang === 'ko' ? 'en' : 'ko';
-    this.switchLang(nextLang);
+    const langOrder = ['ko', 'en', 'ja'];
+    const currentIndex = langOrder.indexOf(this.currentLang);
+    const nextIndex = (currentIndex + 1) % langOrder.length;
+    this.switchLang(langOrder[nextIndex]);
   }
 };
 

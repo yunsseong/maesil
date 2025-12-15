@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Maesil - 毎日、実用的に",
+    "description": "毎日役立つ実用的なソフトウェアを作る、Maesilです。"
+  },
+  "hero": {
+    "badge": "Practical Value, Every Day",
+    "title": "<span class=\"highlight\">毎日、</span>実用的に。",
+    "desc": "Maesilは人々の生活に実質的な助けとなる<br>価値あるソフトウェアを作ります。<br>複雑さを取り除き、本質に集中します。"
+  },
+  "aria": {
+    "scrollDown": "下にスクロール",
+    "prevProduct": "前の製品",
+    "nextProduct": "次の製品",
+    "firstProduct": "最初の製品",
+    "secondProduct": "2番目の製品"
+  },
+  "products": {
+    "feel4": {
+      "badge": "運営中",
+      "name": "筆写",
+      "tagline": "タイピングで文章の深さを感じる",
+      "desc": "小説、詩、エッセイ、聖書を直接タイピングしながら<br>テキストと深く交感するミニマル筆写サービス",
+      "previewTitle": "筆写プレビュー",
+      "cta": "サービスへ",
+      "features": {
+        "content": {
+          "title": "多様なコンテンツ",
+          "desc": "小説、詩、エッセイ、聖書"
+        },
+        "theme": {
+          "title": "カスタムテーマ",
+          "desc": "フォント、サイズ、色のカスタマイズ"
+        },
+        "platform": {
+          "title": "マルチプラットフォーム",
+          "desc": "ウェブとモバイルアプリ対応"
+        },
+        "design": {
+          "title": "ミニマルデザイン",
+          "desc": "集中のためのシンプルUI"
+        }
+      }
+    },
+    "kit": {
+      "badge": "運営中",
+      "name": "Kit",
+      "tagline": "ブラウザで直接、速くて安全に",
+      "desc": "サーバーアップロードなしでクライアントで処理する<br>オールインワンユーティリティツール",
+      "previewTitle": "Kitプレビュー",
+      "cta": "サービスへ",
+      "features": {
+        "image": {
+          "title": "画像処理",
+          "desc": "リサイズ、圧縮、変換など7種類"
+        },
+        "pdf": {
+          "title": "PDF作業",
+          "desc": "変換、結合、分割など6種類"
+        },
+        "dev": {
+          "title": "開発者ツール",
+          "desc": "JSON、Base64、Hashなど10種類"
+        },
+        "privacy": {
+          "title": "完全なプライバシー",
+          "desc": "すべての処理がブラウザ内で"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "desc": "プロジェクトの依頼や協業の提案がございましたら<br>お気軽にお問い合わせください。",
+    "form": {
+      "name": "お名前",
+      "namePlaceholder": "山田太郎",
+      "email": "メール",
+      "emailPlaceholder": "example@email.com",
+      "company": "会社/所属",
+      "companyPlaceholder": "(任意)",
+      "projectType": "プロジェクトタイプ",
+      "selectOption": "選択してください",
+      "options": {
+        "web": "Webサービス開発",
+        "app": "モバイルアプリ開発",
+        "consulting": "技術コンサルティング",
+        "other": "その他"
+      },
+      "message": "お問い合わせ内容",
+      "messagePlaceholder": "プロジェクトについて簡単にご説明ください",
+      "submit": "送信する"
+    }
+  },
+  "footer": {
+    "logo": "Maesil",
+    "ceo": "代表",
+    "ceoName": "チョン・ユンソン",
+    "bizNumber": "事業者登録番号",
+    "bizNumberValue": "107-25-71788",
+    "address": "住所",
+    "addressValue": "韓国 京畿道安山市常緑区漢陽大学路55、2階219-2号",
+    "copyright": "© 2025 Maesil. All rights reserved."
+  },
+  "langSwitch": {
+    "label": "KO"
+  }
+}
