@@ -728,6 +728,8 @@ a {
     0 0 0 2px #333,
     0 20px 60px rgba(0, 0, 0, 0.5),
     inset 0 0 2px rgba(255, 255, 255, 0.1);
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  mask-image: radial-gradient(white, black);
 }
 
 .product-preview iframe {
