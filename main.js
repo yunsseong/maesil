@@ -61,6 +61,11 @@ function initCarousel() {
     const totalSlides = slides.length;
 
     function updateCarousel() {
+      const gap = 40;
+      const slideWidth = track.parentElement.offsetWidth;
+      const offset = currentIndex * (slideWidth + gap);
+      track.style.transform = `translateX(-${offset}px)`;
+
       slides.forEach((slide, index) => {
         slide.classList.toggle('active', index === currentIndex);
       });
