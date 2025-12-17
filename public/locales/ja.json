@@ -13,7 +13,8 @@
     "prevProduct": "前の製品",
     "nextProduct": "次の製品",
     "firstProduct": "最初の製品",
-    "secondProduct": "2番目の製品"
+    "secondProduct": "2番目の製品",
+    "thirdProduct": "3番目の製品"
   },
   "products": {
     "feel4": {
@@ -65,6 +66,32 @@
         "privacy": {
           "title": "完全なプライバシー",
           "desc": "すべての処理がブラウザ内で"
+        }
+      }
+    },
+    "vear": {
+      "badge": "運営中",
+      "name": "VEAR",
+      "tagline": "運動出席、簡単で便利に",
+      "desc": "毎日の運動を記録して<br>達成を確認しましょう",
+      "previewTitle": "VEARプレビュー",
+      "cta": "デモへ",
+      "features": {
+        "calendar": {
+          "title": "カレンダー出席",
+          "desc": "月別出席状況を一目で"
+        },
+        "penalty": {
+          "title": "罰金システム",
+          "desc": "自動計算と管理"
+        },
+        "leaderboard": {
+          "title": "リーダーボード",
+          "desc": "出席ランキング競争"
+        },
+        "feed": {
+          "title": "管理者機能",
+          "desc": "メンバーと出席の統合管理"
         }
       }
     }

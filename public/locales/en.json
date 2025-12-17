@@ -13,7 +13,8 @@
     "prevProduct": "Previous product",
     "nextProduct": "Next product",
     "firstProduct": "First product",
-    "secondProduct": "Second product"
+    "secondProduct": "Second product",
+    "thirdProduct": "Third product"
   },
   "products": {
     "feel4": {
@@ -65,6 +66,32 @@
         "privacy": {
           "title": "Complete Privacy",
           "desc": "All processing in browser"
+        }
+      }
+    },
+    "vear": {
+      "badge": "Live",
+      "name": "VEAR",
+      "tagline": "Exercise attendance, easy and simple",
+      "desc": "Record your daily workouts<br>and track your achievements",
+      "previewTitle": "VEAR Preview",
+      "cta": "Try Demo",
+      "features": {
+        "calendar": {
+          "title": "Calendar Check-in",
+          "desc": "Monthly attendance at a glance"
+        },
+        "penalty": {
+          "title": "Penalty System",
+          "desc": "Auto-calculated fines"
+        },
+        "leaderboard": {
+          "title": "Leaderboard",
+          "desc": "Attendance ranking competition"
+        },
+        "feed": {
+          "title": "Admin Management",
+          "desc": "Integrated member & attendance control"
         }
       }
     }

@@ -868,7 +868,28 @@ a {
 }
 
 .product-preview-kit {
-  border-color: #1e3b2d;
+  border-color: #1a1a1a;
+}
+
+/* Vear Product Card - Green Theme */
+.product-hero-card-vear {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+.product-glow-vear {
+  background: radial-gradient(ellipse, rgba(34, 197, 94, 0.3) 0%, transparent 70%);
+}
+
+.product-hero-card-vear .product-badge {
+  background: linear-gradient(135deg, #22c55e, #4ade80);
+}
+
+.product-hero-card-vear .product-tagline {
+  color: #22c55e;
+}
+
+.product-preview-vear {
+  border-color: #1a1a1a;
 }
 
 /* Responsive */

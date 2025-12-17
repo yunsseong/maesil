@@ -13,7 +13,8 @@
     "prevProduct": "이전 제품",
     "nextProduct": "다음 제품",
     "firstProduct": "첫 번째 제품",
-    "secondProduct": "두 번째 제품"
+    "secondProduct": "두 번째 제품",
+    "thirdProduct": "세 번째 제품"
   },
   "products": {
     "feel4": {
@@ -65,6 +66,32 @@
         "privacy": {
           "title": "완전한 프라이버시",
           "desc": "모든 처리가 브라우저에서"
+        }
+      }
+    },
+    "vear": {
+      "badge": "운영 중",
+      "name": "Vear",
+      "tagline": "운동 출석, 쉽고 간편하게",
+      "desc": "매일의 운동을 기록하고<br>성취를 확인하세요",
+      "previewTitle": "Vear 미리보기",
+      "cta": "데모 바로가기",
+      "features": {
+        "calendar": {
+          "title": "캘린더 출석",
+          "desc": "월별 출석 현황 한눈에"
+        },
+        "penalty": {
+          "title": "벌금 시스템",
+          "desc": "자동 계산 및 관리"
+        },
+        "leaderboard": {
+          "title": "리더보드",
+          "desc": "출석 랭킹 경쟁"
+        },
+        "feed": {
+          "title": "어드민 관리",
+          "desc": "멤버 및 출석 통합 관리"
         }
       }
     }
