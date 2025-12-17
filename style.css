@@ -758,15 +758,25 @@ a {
 }
 
 .carousel-track {
-  display: flex;
-  gap: 40px;
-  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  width: 100%;
 }
 
 .carousel-slide {
-  flex: 0 0 100%;
-  min-width: 100%;
+  width: 100%;
   box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
 }
 
 .carousel-arrow {
