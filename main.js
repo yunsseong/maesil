@@ -1,6 +1,16 @@
 import './style.css'
 import i18n from './i18n.js'
 
+// Font loading detection
+document.fonts.ready.then(() => {
+  document.body.classList.add('fonts-loaded');
+});
+
+// Fallback: show content after 2 seconds even if fonts fail to load
+setTimeout(() => {
+  document.body.classList.add('fonts-loaded');
+}, 2000);
+
 // Scroll Reveal Animation
 const observerOptions = {
   root: null,
